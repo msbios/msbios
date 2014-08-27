@@ -1,0 +1,99 @@
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    background-color: #050505;
+    /*background-image: url(../images/bg.png);*/
+    font-size: 12px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-shadow: 1px 1px 2px #999966;
+    color: #ddd;
+}
+
+h1 {
+    font-size: 68px;
+    letter-spacing: -2px;
+    line-height: 60px;
+    margin: 25px 0px;
+    color: #fff;
+}
+
+#welcome {
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+}
+
+#social a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: none; float: left;
+    width: 32px; height: 32px;
+    text-indent: -9999px;
+    outline: none;
+    margin-right: 3px;
+}
+
+#social #facebook {
+    background-image: url(../images/facebook_dark.png);
+}
+
+#social #facebook:hover {
+    background-image: url(../images/facebook_active.png);
+}
+
+#social #google {
+    background-image: url(../images/google_dark.png);
+}
+
+#social #google:hover {
+    background-image: url(../images/google_active.png);
+}
+
+#social #twitter {
+    background-image: url(../images/twitter_dark.png);
+}
+
+#social #twitter:hover {
+    background-image: url(../images/twitter_active.png);
+}
+
+#social #myspace {
+    background-image: url(../images/myspace_dark.png);
+}
+
+#social #myspace:hover {
+    background-image: url(../images/myspace_active.png);
+}
+
+#social #in {
+    background-image: url(../images/in_dark.png);
+}
+
+#social #in:hover {
+    background-image: url(../images/in_active.png);
+}
+
+#social #skype {
+    background-image: url(../images/skype_dark.png);
+}
+
+#social #skype:hover {
+    background-image: url(../images/skype_active.png);
+}
+
+#copyright {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 5px 5px 5px 0px;
+    color: #555;
+    text-shadow: 0px 0px 0px #999966;
+    width: 100%;
+    text-align: right;
+    background-color: #090909;
+    border-top-width: 1px;
+    border-top-color: #181818;
+    border-top-style: solid;
+}
